@@ -1,0 +1,24 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "chat bot with small training model",
+  "main": "index.js",
+  "scripts": {
+    "train": "node train.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YShailendra/chat-bot-sample.git"
+  },
+  "author": "Shailendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YShailendra/chat-bot-sample/issues"
+  },
+  "homepage": "https://github.com/YShailendra/chat-bot-sample#readme",
+  "dependencies": {
+    "node-nlp": "^4.23.2"
+  }
+}
